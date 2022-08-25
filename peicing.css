@@ -1,0 +1,154 @@
+.{
+    padding: 0;
+    margin: 0;
+}
+#first{
+    display: grid;
+    text-align: center;
+ 
+}
+#v>p{
+    font-size:20px ;
+    font-weight: 900;
+}
+#first>h1{
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: normal;
+}
+#bill{
+    display: flex;
+border: 1px solid;
+height: 60px;
+width: 250px;
+justify-content: center;
+margin: auto;
+border-radius: 40px;
+}
+#bill>button{
+    height: 100%;
+    width: 50%;
+    border-radius: 70px;
+    border: 0px;
+    background-color: white;
+    font-weight: 900;
+    
+}
+#bill>button:hover{
+    background-color: gray;
+    color: white;
+}
+#secund{
+    display: grid;
+    grid-template-columns: repeat(5,250px);
+    /* border: 1px solid; */
+    margin-top: 30px;
+    
+}
+#secund_one{
+    margin-left: 20px;
+}
+#secund_one>div{
+    height: 300px;
+    padding: 14px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+#secund_one>div>button{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+
+    
+}
+#secund_one>div>button:hover{
+    color: white;
+    background-color: blue;
+
+}
+#secund_one>div>p{
+
+    font-size: 12px;
+    line-height: 18px;
+}
+#secund_one>div>h1{
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 22px;   
+}
+#secund_one>p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#secund_one>h4{
+    margin-left: 9px;
+}
+#three{
+    text-align: center;
+
+}
+#three>div{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#three>div button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: 600;
+   color: blue;
+    background-color: white;
+    border: 1px solid blue;
+}
+#three>div button:hover{
+    background-color: blue;
+    color: white;
+}
+#bt{
+    background-color: blue;
+    color: white;
+
+}
+#four{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 42px;
+
+    justify-content: center;
+}
+#aek{
+  
+    text-align: center;
+    margin-top: 40px;
+
+}.icon{
+    margin-bottom: 20px;
+}
+
+.icon>img{
+    position: absolute;
+    justify-content: center;
+    height: 70px;
+    border-radius: 50px;
+
+}
+.desc{
+    position: relative;
+    height: 500px;
+    width: 300px;
+}
+.desc>p{
+    
+    margin-top: 20px;
+    margin: auto;
+}
