@@ -1,0 +1,150 @@
+body{
+    background-color:#f0f2f5 ;
+}
+
+#btn-div{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    margin-left: 150px;
+}
+button{
+    padding: 12px 20px;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+    border-radius: 9px;
+    background-color: white;
+    color: grey;
+    border: 1px solid silver;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    margin-left: 150px;
+}
+#div-con{
+width: 80%;
+/* border: 1px solid black; */
+height: 530px;
+margin: auto;
+margin-top: 40px;
+margin-left: 150px;
+display: flex;
+}
+.con-div{
+    width: 50%;
+    /* border: 1px solid black; */
+    height: 100%;
+    margin: auto;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.small-div{
+    padding: 20px;
+    width: 80%;
+}
+.con-img{
+    width: 100%;
+    height: 370px;
+}
+h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .con-img:hover{
+    height: 100%;
+    width: 100%;
+} */
+h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#side-con{
+    width: 80%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.side-div{
+    width: 100%;
+    height: 45%;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    display: flex;
+    background-color: white;
+}
+.chota{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+   border-radius: 10px;
+    padding-bottom: 10px;
+}
+.big{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.side-img{
+    width: 100%;
+    height: 260px;
+    border-radius: 10px;
+}
+.logo{
+    border: 1px solid black;
+    width: auto;
+}
+
+/* footer */
+#footie{
+    background-color: black;
+}
+#footer{
+    width: 80%;
+    height:auto;
+    margin-top: 40px;
+    /* background-color: black; */
+    display: flex;
+}
+.foot-img{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+#foot-logo{
+    margin-left: 150px;
+    padding-top: 25px;
+}
+#foot-side{
+    margin-left: 700px;
+    padding-top: 18px;
+    color: white;
+    display: flex;
+    /* background-color: black; */
+}
+/* .side-img{
+    width:100%;
+} */
+#hr{
+    border: 0.001px solid grey;
+    width: 80%;
+
+}
+#ending{
+    padding: 10px;
+}
+#end{
+    color: grey;
+    margin-left: 1100px;
+}
