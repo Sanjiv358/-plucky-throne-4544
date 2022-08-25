@@ -65,7 +65,6 @@ body{
     margin-left: -50px;
     
 }
-
 .Customer-logo-image>img{
     width: 100%;
 }
@@ -80,12 +79,88 @@ body{
 #Sigup-form{
     padding-left:11%;
     padding-top: 5%;
+    margin-top: 1%;
    
 }
 input{
+    border: none;
     padding: 10px;
     width: 60%;
+    font-size: 16px;
+    border-bottom: 1px solid silver;
+}
+label{
+    font-family: "Poppins",sans-serif;
 }
 span{
     margin-left:5px;
+}
+#bullet{
+    width: 52%;
+    height: 80px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    padding-left: 13px;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.795);
+}
+ul li::before{
+    content: "\2022";
+    color: #5846f6 ;
+    font-weight:bolder;
+    display: inline-block; 
+    width: 0.6em;
+    margin-left: -1em;
+}
+#create-account{
+    width:62%;
+    padding: 15px;
+    border-radius:25px;
+    background-color: #5846f6;
+    color: white;
+    border: 0;
+    letter-spacing: 0.1ch;
+}
+#create-account:hover{
+    background-color: #3f33af;
+    cursor: pointer;
+}
+.content-divider{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 35px;
+    color: rgb(139, 139, 139);
+    padding-right:380px;
+    margin-left: 10px;
+}
+.content-divider>span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    background-color: #ddd;
+    width: 60%;
+    z-index:-1;
+}
+#Facebook_btn{
+    width:62%;
+    padding: 15px;
+    border-radius:25px;
+    color:#4a68ad;
+    letter-spacing: 0.1ch;
+    cursor: pointer;
+    margin-top:3.5%;
+    border-style: solid;
+    border-width:medium;
+    border:2;
+    border-color:#4a68ad;
+    background-color: white;
+    font-family:"Poppins",sans-serif ;
 }
