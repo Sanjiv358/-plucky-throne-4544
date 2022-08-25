@@ -1,0 +1,57 @@
+#leftside {
+  border: 1px solid black;
+  margin: auto;
+  height: 500px;
+  display: flex;
+}
+#leftside > div {
+  width: 50%;
+}
+
+#leftside > div > button {
+  border: 1px solid #5846f6;
+  background-color: #5846f6;
+  color: #fff;
+}
+
+#leftside > div > img {
+  width: 100%;
+  height: 100%;
+}
+#companylogo {
+  margin-top: 10px;
+  display: flex;
+  gap: 45px;
+}
+#line {
+  margin: auto;
+  text-align: center;
+}
+#video1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#video1 video {
+  height: 500px;
+  width: 500px;
+}
+#middlesection1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#middlesection2 {
+  display: flex;
+}
+#middlesection3 {
+  display: flex;
+}
+#middlesection4 {
+  display: flex;
+}
+.row img {
+  width: 52px;
+  height: 52px;
+}
+.row {
+  display: flex;
+}
