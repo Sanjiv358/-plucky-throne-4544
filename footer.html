@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   .footer {
+    background-color: #24282F;
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo-box{
+    width: 30%;
+    margin-left: 8%;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+
+.logo-box img {
+    max-width: 120px;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.logo-box  p{
+    color: #F0F0F4 !important;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .02em;
+    width: 50%;
+    align-items: center;
+}
+
+.footer-links{
+    margin-top:50px;
+    width: 13%;
+    margin-right: 2%;
+    marker-start: none;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.top-upper{
+    color: #F0F0F4 !important;
+    margin-bottom: 30px;
+    margin-top: -1px !important;
+    /* marker: none; */
+    marker-start: none;
+
+}
+
+.footer-links ul{
+    width: 100%;
+    color: #F0F0F4;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul li{
+    margin-top: 18px;
+    color: #C8CbD9;
+    align-items: left;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:768px) {
+    .footer{
+        background-color: #24282F;
+        display:flex;
+        flex-direction: column !important;
+    }
+
+    .footer-links{
+        margin-top:50px;
+        width: 100%;
+    }
+
+    .deactive{
+        display: none;
+    }
+
+    .footer-links ul{
+        width: 100%;
+        color: #F0F0F4;
+        margin-left: 6%;
+    }
+
+
+
+    .logo-box  p{
+        color: #F0F0F4 !important;
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: .02em;
+        width: 100%;
+        align-items: center;
+    }
+
+}
+</style>
+<body>
+    <div class="footer">
+        <div class="logo-box">
+          <a href="./homepage.html">
+            <img
+              src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-white.png"
+          /></a>
+          <p>
+            Lumen5 combines powerful A.I. with a simple drag-and-drop interface to
+            help you create professional video content in minutes.
+          </p>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li class="top-upper">EXPLORE</li>
+            <li><a href="" class="noChanges">About</a></li>
+            <li><a href="" class="noChanges">Features</a></li>
+            <li><a href="" class="noChanges">Careers</a></li>
+            <li><a href="#" class="noChanges">LinkedIn</a></li>
+            <li><a href="#" class="noChanges">Support</a></li>
+            <li><a href="#" class="noChanges">Community Group</a></li>
+          </ul>
+        </div>
+        <div class="footer-links deactive">
+          <ul>
+            <li class="top-upper">VIDEO TOOLS</li>
+            <li><a href="#" class="noChanges">Add Text to Video</a></li>
+            <li><a href="#" class="noChanges">Cut Video</a></li>
+            <li><a href="#" class="noChanges">Merge Video</a></li>
+            <li><a href="#" class="noChanges">Compress Video</a></li>
+            <li><a href="#" class="noChanges">Resize Video</a></li>
+            <li><a href="#" class="noChanges">See all</a></li>
+          </ul>
+        </div>
+        <div class="footer-links deactive">
+          <ul>
+            <li class="top-upper">VIDEO CREATORS</li>
+            <li><a href="#" class="noChanges">Video Editor</a></li>
+            <li><a href="#" class="noChanges">Photo Video Maker</a></li>
+            <li><a href="#" class="noChanges">Facebook Video Maker</a></li>
+            <li><a href="#" class="noChanges">Youtube Video Maker</a></li>
+            <li><a href="#" class="noChanges">Instagram Video Maker</a></li>
+            <li><a href="#" class="noChanges">See all</a></li>
+          </ul>
+        </div>
+      </div>
+</body>
+</html>
