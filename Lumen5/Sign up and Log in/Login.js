@@ -14,3 +14,34 @@ visibilityToggle.addEventListener('click',function(){
     }
     password = !password;
 });
+
+class Submit{
+    constructor(e,p){
+        this.email = e,
+        this.password = p;
+    }
+}
+
+
+
+
+let login = ()=>{
+    event.preventDefault()
+    let data = JSON.parse(localStorage.getItem('user')) || [];
+    console.log('data:', data)
+
+    let e = document.getElementById('email').value;
+    let p = document.getElementById('password').value;
+
+    let temp = new Submit(e,p);
+    console.log('temp:', temp);
+
+    for(let i=0; i<data.length; i++){
+        if(temp.email !== data[i].we && temp.password !== data[i].pw){
+            alert('wrong credecial');
+        }
+        else{
+            window.location.href = 'Dashboard.html';
+        }
+    }
+};

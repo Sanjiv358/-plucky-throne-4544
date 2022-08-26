@@ -43,14 +43,14 @@
         </div>   
         <div>
             <h2 id="RHS-Heading">Get started with a free account</h2>
-            <form id="Sigup-form">
+            <form  id="Sigup-form" onsubmit="getData()">
                 <label for="name">FULL NAME</label><br>
                 <br>
-                <input type="text"><br>
+                <input id="name" type="text"><br>
                 <br>
                 <label for="email">WORK EMAIL</label><br>
                 <br>
-                <input type="email"><br>
+                <input id="email" type="email"><br>
                 <br>
                 <label for="password">PASSWORD</label><br>
                 <br>
@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                 </div>
-                <button id="create-account">Create account</button>
+                <input type="submit" id="create-account" value="Create account"></input>
                 <div class="content-divider"><span>OR</span></div>
                 <button id="Facebook_btn">Sign up with Facebook</button>
             </form>
