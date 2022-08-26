@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <div>
+    <div class="main">
         <div id="leftside">
             <div id="lefta">
+                <h2>ENTERPRISE</h2>
                 <h1>Create engaging <br> videos at scale while <br> keeping on brand.
                 </h1>
                 <p>Lumen5 is the easiest and <br> fastest way to create videos <br> with your own custom branded
@@ -26,35 +28,34 @@
                     alt="">
             </div>
         </div>
-        <div id="rightside">
-            <div id="line">
-                <p>Over 6 million videos created by thousands of businesses</p>
-            </div>
-            <div id="companylogo">
-                <div><img
-                        src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-salesforce-color.png"
-                        alt=""></div>
-                <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-pwc-color.png"
-                        alt=""></div>
-                <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-siemens-color1.png"
-                        alt=""></div>
-                <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-color.png"
-                        alt=""></div>
-                <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merk-color.png"
-                        alt=""></div>
-                <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-color.png"
-                        alt=""></div>
-                <div><img
-                        src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mitsubishi-color.png"
-                        alt=""></div>
-                <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-color.png"
-                        alt=""></div>
-            </div>
-        </div>
-
     </div>
+    <div id="rightside">
+        <div id="line">
+            <p>Over 6 million videos created by thousands of businesses</p>
+        </div>
+        <div id="companylogo">
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-salesforce-color.png"
+                    alt=""></div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-pwc-color.png" alt="">
+            </div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-siemens-color1.png"
+                    alt=""></div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-kpmg-color.png" alt="">
+            </div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-merk-color.png" alt="">
+            </div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-sap-color.png" alt="">
+            </div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-mitsubishi-color.png"
+                    alt=""></div>
+            <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/logo-cisco-color.png"
+                    alt=""></div>
+        </div>
+    </div>
+
+
     <div>
-        <div>
+        <div id="video4">
             <h1>
                 Bespoke custom templates
             </h1>
@@ -63,20 +64,34 @@
     </div>
     <div>
         <div id="video1">
+
             <div>
-                <video src="https://storage.googleapis.com/lumen5-site-images/siemens_prev.mp4"></video>
+                <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                    <source src="https://storage.googleapis.com/lumen5-site-images/siemens_prev.mp4" type="video/mp4" />
+                </video>
             </div>
             <div>
-                <video src="https://storage.googleapis.com/lumen5-site-images/salesforce_prev.mp4"></video>
+                <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                    <source src="https://storage.googleapis.com/lumen5-site-images/salesforce_prev.mp4"
+                        type="video/mp4" />
+                </video>
             </div>
             <div>
-                <video src="https://storage.googleapis.com/lumen5-site-images/viasat_prev.mp4"></video>
+                <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                    <source src="https://storage.googleapis.com/lumen5-site-images/viasat_prev.mp4" type="video/mp4" />
+                </video>
             </div>
-            <div> <video src="https://storage.googleapis.com/lumen5-site-images/storaenso_prev.mp4"></video></div>
+            <div>
+                <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                    <source src="https://storage.googleapis.com/lumen5-site-images/storaenso_prev.mp4"
+                        type="video/mp4" />
+                </video>
+            </div>
+
 
         </div>
     </div>
-    <div>
+    <div class="mid">
         <div id="middlesection1">
             <div>
                 <h2>Scale your content and
@@ -119,11 +134,11 @@
     </div>
     <div>
         <div id="middlesection2">
-            <div>
+            <div id="middlesection2img">
                 <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/enterprise-scale.png" alt="">
 
             </div>
-            <div>
+            <div id="middlesection2text">
                 <h1>Produce videos at scale and in‑house. Seriously easy.</h1>
                 <p>Lumen5 is an unbelievably easy to use video creator built specifically for users without experience
                     in video editing. The workflow is as simple as creating a PowerPoint presentation, and the output
@@ -140,19 +155,20 @@
     </div>
     <div>
         <div id="middlesection3">
-            <div>
+            <div id="middlesection3text">
                 <h1>Maintain full control over content and branding.</h1>
                 <p>Our team of motion graphics designers work with your brand team to produce a custom template unique
                     to your visual identity, ensuring your videos are always on-brand no matter who is creating them for
                     you.
-
+                </p>
+                <p>
                     With approval and permission level workflows in place, you can always make sure everyone's on the
                     right path and on brand. Comment and leave revision requests right in the video itself, scene by
                     scene, allowing for smooth team collaboration and a simple creation and video sharing process
                     between team members, no matter if they're sitting next to you, or half a world away.</p>
 
             </div>
-            <div>
+            <div id="middlesection3img">
                 <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/enterprise-control.png"
                     alt="">
             </div>
@@ -161,11 +177,11 @@
     </div>
     <div>
         <div id="middlesection4">
-            <div>
+            <div id="middlesection4img">
                 <img src="https://storage.googleapis.com/lumen5-site-images/website-assets/enterprise-support.png"
                     alt="">
             </div>
-            <div>
+            <div id="middlesection4text">
                 <h1>Priority support, customer success, and continuous training.</h1>
                 <p>Our strategic Customer Success team has worked with hundreds of brands on implementation and
                     adoption. We
@@ -188,7 +204,7 @@
             <div><strong>Siemens</strong><br>“One of the goals of the
                 company is to help our customers in their digital transformation, Lumen5 helps us in getting more
                 digital in our communications—that’s part of the digital transformation.”
-                <div>
+                <div class="thumb">
                     <div><img
                             src="https://storage.googleapis.com/lumen5-site-images/website-assets/guenter-siemens.jpeg">
                     </div>
@@ -201,7 +217,7 @@
                 <div><strong>Mitsubishi</strong><br>“Thanks to Lumen5, we
                     have been able to cut down on time and costs for video making. We don’t have to go through a third
                     party which speeds everything up and makes our work a lot easier.”</div>
-                <div>
+                <div class="thumb">
                     <div><img
                             src="https://storage.googleapis.com/lumen5-site-images/website-assets/adrian-mitsubishi.jpg">
                     </div>
@@ -212,9 +228,10 @@
             </div>
             <div>
                 <div><strong>Cisco</strong><br>“At Cisco we try to share lots
-                    of multimedia content and new types of content like memes, graphics and videos. And the videos by
+                    of multimedia content and new types of content like memes, graphics and videos. Lumen5 And the
+                    videos by
                     far give us the most engagement, thanks to Lumen5.”</div>
-                <div>
+                <div class="thumb">
                     <div><img src="https://storage.googleapis.com/lumen5-site-images/website-assets/eric-cisco.jpeg">
                     </div>
                     <div>
@@ -224,6 +241,114 @@
             </div>
         </div>
     </div>
+
+
+
+    <div>
+        <div id="part">
+            <h1>Explore videos made with Lumen5</h1>
+            <div id="part1">
+                <p>Content Marketing</p>
+                <p>Communications</p>
+                <p>Promotional</p>
+                <p>People & Culture</p>
+                <p>Localization</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="video">
+        <div>
+            <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source
+                    src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Hydrogen%20Economy.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+        <div>
+            <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source
+                    src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/siemens-content.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+        <div>
+            <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source
+                    src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Responsible%20Investment.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+        <div>
+            <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source
+                    src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Workplace%20Evolution.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+        <div>
+            <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source
+                    src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/The%20Pandemic.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+        <div>
+            <video class="player" playsinline controls data-poster="/path/to/poster.jpg">
+                <source
+                    src="https://storage.googleapis.com/lumen5-site-images/homepage/Content%20Marketing/Supply%20Chain%20Resilience.mp4"
+                    type="video/mp4" />
+            </video>
+        </div>
+
+
+    </div>
+
+    <div>
+        <div id="bottom"></div>
+        <div id="bottomsection">
+            <div id="bottomsection1">
+                <h1>Tips and tricks for effortless <br>
+                    video production</h1>
+                <h2>Learn how our customers save time and <br>
+                    boost engagement with Lumen5</h2>
+            </div>
+            <div id="bottomsection2">
+                <div>
+                    <img src="https://lumen5.com/learn/wp-content/uploads/2019/05/Video-Marketing-How-to-Get-Started.jpg"
+                        alt="">
+                    <p>BLOG</p>
+                    <h3>Video Marketing: How to Get Started [Step by Step]</h3>
+                    <p><a href="https://lumen5.com/learn/video-marketing/">Read Story</a></p>
+                </div>
+                <div>
+                    <img src="https://lumen5.com/learn/wp-content/uploads/2019/08/Host-an-Instagram-Takeover-in-7-Simple-Steps.jpg"
+                        alt="">
+                    <p>BLOG</p>
+                    <h3>How to Increase Your Facebook Video Views [Complete Guide]</h3>
+                    <p><a href="https://lumen5.com/learn/">Read Story</a></p>
+                </div>
+                <div>
+                    <img src="https://lumen5.com/learn/wp-content/uploads/2018/10/photo-1518406432532-9cbef5697723.jpeg"
+                        alt="">
+                    <p>BLOG</p>
+                    <h3>The Importance of Video in Your Content Strategy</h3>
+                    <p><a href="https://lumen5.com/learn/video-marketing-content-strategy/">Read Story</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="foot">
+            <h1>Join 800,000+ companies that are using Lumen5 to tell their stories.</h1>
+            <p><b>Lumen5 is a video creation software that helps marketers, publishers, and brands create video content
+                    in a breeze, without any technical expertise.</b></p>
+            <button><a href="">Request a demo</a></button>
+        </div>
+
+    </div>
+
+
+
 
 </body>
 
