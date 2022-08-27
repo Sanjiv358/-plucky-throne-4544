@@ -15,11 +15,24 @@ body{
     display: flex;
     align-items: center;
 }
+#user{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:85%;
+    border-radius: 100px;
+    background-color: silver;
+    border: 0;
+    cursor: pointer;
+}
 #container{
     border: solid 1px silver;
     border-top: 0;
     border-bottom: 0;
-    height:680px;
+    height:auto;
     width: 100%;
     display: flex;
 }
@@ -33,7 +46,7 @@ body{
 }
 #Dashboard-RHS{
     border:solid 1px silver;
-    height:680px;
+    height:auto;
     width:90%;
     background-color:#f0f0f4;
     border-top: 0;
@@ -75,3 +88,156 @@ p{
 #projects{
     padding-top: 30px;
 }
+
+
+ .signup-page2-heading {
+        width: 99.7%;
+        height: 30vh;
+        margin: auto;
+        background: url("https://storage.googleapis.com/lumen5-site-images/new-create-video-flow-banner.png");
+        border:1px solid silver;
+    }
+    .signup-page2-heading > h1 {
+        text-align: center;
+        margin: 10vh auto;
+        font-size: 40px;
+        color: #ffffff;
+    }
+    .signup-page2-msg {
+        display: flex;
+        flex-flow: nowrap;
+        gap: 2%;
+        width: 90%;
+        margin: auto;
+        margin-top: 8vh;
+        margin-bottom: -7vh;
+        justify-content: space-between;
+    }
+
+    .signup-page2-msg > div > a {
+        font-size: 16px;
+        color: black;
+    }
+    .signup-page2-msg > div > a:hover {
+        color: blue;
+    }
+    .signup-page2-block {
+        width: 90%;
+        margin: 8vh auto;
+    }
+    .signup-page2-block > p {
+        font-size: 20px;
+        margin: 1vh 0 0.5vh 0;
+    }
+    .signup-page2-inblock {
+        display: flex;
+        gap: 2%;
+        flex-direction: row;
+    }
+    .block-scroll {
+        overflow: scroll;
+    }
+    .signup-page2-inblock > div {
+        width: 25%;
+        height: 24vh;
+        border-radius: 2px;
+    }
+    .signup-page2-inblock > div:hover {
+        transform: scale(1.05);
+    
+        cursor: pointer;
+    }
+    .signup-page2-inblock > div > video {
+        width: 101%;
+        height: 102%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px #999;
+  }
+  .signup-page2-inblock > div > video:focus {
+    border: none;
+  }
+  
+  .a{
+    margin-left: 10px;
+    margin-top: 10%;
+  }
+  
+  #skip_btn{
+    color: rgb(88,70,246);
+    cursor: pointer;
+    text-decoration: underline;
+    
+  } 
+  
+  .afterNav > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .userimg:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+  }
+  .afterNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .afterNav > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    width: 110px;
+    margin-right: 120px;
+    margin-left: 22px;
+  }
+  .menu {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .search {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+  }
+  .search > button {
+    border: none;
+    background-color: white;
+    outline: none;
+  }
+  .search > input {
+    border: none;
+    outline: none;
+  }
+  
+  #searchbtn {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+  }
+  #upgradebtn {
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    border: 1px solid rgb(88, 70, 246);
+    border-radius: 50px;
+    background-color: white;
+    font-size: 15px;
+    color: rgb(88, 70, 246);
+  }
+  #upgradebtn:hover {
+    background-color: rgb(88, 70, 246);
+    color: white;
+  }
+
+  

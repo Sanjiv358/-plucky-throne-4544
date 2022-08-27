@@ -43,7 +43,7 @@
         </div>   
         <div>
             <h2 id="RHS-Heading">Get started with a free account</h2>
-            <form  id="Sigup-form" onsubmit="getData()">
+            <form  id="Sigup-form">
                 <label for="name">FULL NAME</label><br>
                 <br>
                 <input id="name" type="text"><br>
@@ -54,7 +54,7 @@
                 <br>
                 <label for="password">PASSWORD</label><br>
                 <br>
-                <input  id="password" type="Password"><span class="material-icons Eye visibility">visibility_off</span>
+                <input  id="pass1" type="Password"><span class="material-icons Eye visibility">visibility_off</span>
                 <div id="bullet">
                     <div>
                         <ul>
@@ -69,7 +69,7 @@
                         </ul>
                     </div>
                 </div>
-                <input type="submit" id="create-account" value="Create account"></input>
+                <input type="submit" onclick="myFunc()" id="create-account" value="Create account"></input>
                 <div class="content-divider"><span>OR</span></div>
                 <button id="Facebook_btn">Sign up with Facebook</button>
             </form>
@@ -85,3 +85,5 @@
 </html>
 
 <script src="./Signup.js"></script>
+
+  
