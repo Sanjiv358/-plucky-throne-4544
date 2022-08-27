@@ -43,7 +43,7 @@ let loginMe = () =>{
                 window.location.href = 'Dashboard.html';
                 break;
             }
-            else if(user_db[i].email !== email || user_db[i].password !== password)
+            else
             {
                 alert('Wrong credentials');
                 return 
@@ -52,3 +52,5 @@ let loginMe = () =>{
         }
     }
 }
+
+// (user_db[i].email !== email || user_db[i].password !== password)

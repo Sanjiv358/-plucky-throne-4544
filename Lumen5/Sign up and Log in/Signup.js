@@ -37,6 +37,7 @@ form = document.getElementById("Sigup-form");
   
         users.push(user);
         localStorage.setItem("users", JSON.stringify(users));
+        alert("Account create successful ")
         window.location.href = "Login.html" ;
       }
     }
