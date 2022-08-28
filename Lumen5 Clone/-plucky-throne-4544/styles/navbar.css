@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#caseNav{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navcontent{
+    width: 10%;
+    height: 80px;
+    margin-left: 100px;
+}
+#navcontent>a>img{
+    width: 100%;
+    height: 100%;
+}
+#navlist{
+    width: 50%;
+    /* height: 50px; */
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 7px;
+    justify-content: end;
+    align-items: center;
+    margin-right: 80px;
+}
+#navlist>a{
+    /* width: 14%; */
+    height: 80%;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 10px;
+}
+button{
+    width: 12%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid blue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#login{
+    background-color: white;
+}
+#login>a{
+    color: blue;
+}
+#login:hover{
+    background-color: #5846F6;
+}
+#login>a:hover{
+    color: white;
+}
+#signup{
+    background-color: #5846F6;
+}
+#signup>a{
+    color: white;
+}
+
+
+/* .navref{
+    width: 15%;
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    margin: 1%;
+    color: rgb(88,93,103);
+    font-family: 'Poppins', sans-serif;
+} */
+/* #navselect{
+    width: 12%;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+} */
+/* .logo{
+    width: 150px;
+    height: 87.97px;
+   padding: 2%;
+   transition: all 200ms ease-in-out;
+} */
+/* #login{
+    background-color: white;
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    border: 1px solid rgb(88,70,246);
+    border-radius: 20px;
+    color: rgb(88,70,246);
+    transition: all 300ms ease-in-out;
+  
+}
+#signup{
+    background-color: rgb(88,70,246);
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 1px solid rgb(88,70,246);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.styckynav{
+    width: 99%;
+    height: 12vh;
+    padding-top:0%;
+    position: fixed;
+    top: 0;
+}
+.logo1{
+    width: 120px;
+    height: 70px;
+    padding: 0%;
+}
+#login:hover{
+    background-color: rgb(29, 10, 201) ;
+    color:white ;
+}
+#signup:hover{
+    background-color: rgb(29, 10, 201) ;
+}
+Nav bar end */

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body{
+    margin: 0px;
+    /* text-align: left; */
+}
+#container{
+    /* border: 1px solid; */
+    height: 685px;
+    display: flex;
+}
+#container>div:nth-child(1){
+    border: solid black 0.1;
+    height: 685px;
+    width: 32%;
+    background-image: url(https://storage.googleapis.com/lumen5-site-images/website-assets/login-bg3.png);
+    background-size: cover;
+    height: 100vh;
+    
+}
+#container>div:nth-child(2){
+    border: solid black 0.1;
+    height:685px;
+    width: 68%;
+}
+#logo-image{
+    max-width: 9rem;
+    padding-left:9.9%;
+    padding-top: 3.8%;
+}
+#Heading-section{
+    font-size:54px;
+    font-weight:500;
+    letter-spacing: 0;
+    margin:  0 0 32px;
+    color:white;
+    line-height: 2ch;
+    font-family: Poppins,sans-serif;
+}
+
+#Heading-Box{
+    width: 65%;
+    margin-left:10%;
+    margin-top: 8%;
+}
+#Join{
+    margin: 0 0 20px;
+    letter-spacing: 0;
+    font-family: "Poppins",sans-serif;
+    color: white;
+    font-size:31px;
+    font-weight:200;
+    margin-left: 10%;
+    line-height:2.5ch;
+}
+#logo-container{
+    display: grid;
+    /* border:solid black 1px; */
+    height: 180px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,80px);
+    row-gap: 8px;
+    column-gap: 25px;
+    justify-content: center;
+    margin-top:12%;
+    margin-left: -50px;
+    
+}
+.Customer-logo-image>img{
+    width: 100%;
+}
+#RHS-Heading{
+    letter-spacing:0;
+    font-family: "Poppins",sans-serif;
+    font-size: 37px;
+    font-weight:800;
+    margin-left: 115px;
+    margin-top:3%;
+    color: #24282F;
+}
+#Login-form{
+    padding-left: 11%;
+    padding-top: 5%;
+    margin-top:-4%;
+
+}
+input{
+    border: none;
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border-bottom: 1px solid silver;
+    outline-color:white;
+}
+label{
+    font-family: "Poppins",sans-serif;
+}
+.Eye{
+    margin-left:5px;
+    color: rgb(168, 168, 168);
+    cursor:pointer;
+}
+#forget-password{
+    /* border: 1px solid black; */
+    width: 62%;
+    display: flex;
+    justify-content: end;
+}
+#forget-password>p{
+    margin-top:2%;
+    color: #9FAABF;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    cursor: pointer;
+}
+#Login-btn{
+    width:62%;
+    padding: 15px;
+    border-radius:25px;
+    background-color: #5846f6;
+    color: white;
+    border: 0;
+    letter-spacing: 0.1ch;
+}
+#Login-btn:hover{
+    background-color: #3f33af;
+    cursor: pointer;
+}
+.content-divider{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 35px;
+    color: rgb(139, 139, 139);
+    padding-right:380px;
+    margin-left: 10px;
+}
+.content-divider>span::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 2px;
+    background-color: #ddd;
+    width: 60%;
+    z-index:-1;
+}
+#Facebook_Login{
+    width:62%;
+    padding: 15px;
+    border-radius:25px;
+    color:#4a68ad;
+    letter-spacing: 0.1ch;
+    cursor: pointer;
+    margin-top:3.5%;
+    border-style: solid;
+    border-width:medium;
+    border:2;
+    border-color:#4a68ad;
+    background-color: white;
+    font-family:"Poppins",sans-serif ;
+}
+#SSO{
+    width:62%;
+    padding: 15px;
+    border-radius:25px;
+    color:#4a68ad;
+    letter-spacing: 0.1ch;
+    cursor: pointer;
+    margin-top:1.5%;
+    border-style: solid;
+    border-width:thin;
+    border:1;
+    border-color:#4a68ad;
+    background-color: white;
+    font-family:"Poppins",sans-serif ;
+}
+#SSO:hover{
+    background-color: #5846f6;
+    color: white;
+}
+#Create-ac{
+    margin-top:3%;
+    font-size: 14px;
+    font-family:"Poppins",sans-serif ;
+    color: #24282F;
+}
+#Signup-a{
+    font-size: 14px;
+    font-family:"Poppins",sans-serif ;
+    color: #5846f6;
+    font-weight:600;
+}
+#Signup-a:hover{
+    color: #3326ac;
+}
+#Create-ac+p{
+    margin-left:23%;
+    margin-top: 5%;
+    font-size: 14px;
+    font-family:"Poppins",sans-serif;
+    color: #7E889A;
+}
