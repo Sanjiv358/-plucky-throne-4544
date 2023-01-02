@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="peicing.css">
+    <link rel="icon" href="https://storage.googleapis.com/lumen5-site-images/favicon/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="./styles/peicing.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Picing</title>
 </head>
 
 <body>
+    <div id="navbar"></div>
     <div id="first">
         <p>PRICING</p>
-        <br>
         <br>
         <h1>Plans for your video Content creation strategy</h1>
         <br>
@@ -86,7 +89,7 @@
                 <h1> $149 USD </h1>
                 <p>per month, billed yearly</p>
                 <p>Save 25%</p>
-                <button style="background-color: blue;color:white"><a style="color:white" href="">Get started</a></button>
+                <button style="background-color: blue;color:white"><a style="color:white" href="paytment.html">Get started</a></button>
             </div>
             <h4>What's included:</h4>
             <p>500M stock photos & videos</p>
@@ -130,12 +133,13 @@
     </div>
 
     <div id="for-1">
+
+        
         <div class="for">
-            <div class="icon"><img src="https://storage.googleapis.com/lumen5-site-images/comment-darren.png" width="80">
+            <div class="icon">
+                <img src="https://storage.googleapis.com/lumen5-site-images/comment-nicholas.png" width="80">
             </div>
-            <br>
-            <div class="desc"> <p>"A member from our ProBlogger group created a video using Lumen5 and published it on Facebook.
-                In
+            <div class="desc"> <p>"A member from our ProBlogger group created a video using Lumen5 and published it on Facebook. In
                 24 hours the video got <strong>300,000 views</strong>, just using this little tool."</p>
                 <p>Darren Rowse</p>
             </div>
@@ -183,7 +187,7 @@
     
     
         <div class="for">
-            <div class="icon"><img src="https://storage.googleapis.com/lumen5-site-images/comment-kaylene.png" width="80">
+            <div class="icon"><img src="https://storage.googleapis.com/lumen5-site-images/comment-steve.png" width="80">
             </div><br>
             <div class="desc">"My Lumen5 video went viral with over<strong>3 million reach</strong> and it grew my page from
                 1500 to 5000 likes! I’m making these for all my top posts."
@@ -200,9 +204,14 @@
                 <thead>
                     <tr class="border-bottom">
                         <th></th>
-                        <th><span class="title">Community</span><br><small>forever free</small><br><button type="button"
-                                class="upgrade-button btn btn-extra-small btn-circle billing-monthly plan-community lumen5-button btn btn-rounded btn-primary btn-outlin"><span>
-                                   <a href="">Get started </a></span></button></th>
+                        <th>
+                            <span class="title">Community</span>
+                            <br>
+                            <small>forever free</small>
+                            <br>
+                            <button type="button"class="upgrade-button btn btn-extra-small btn-circle billing-monthly plan-community lumen5-button btn btn-rounded btn-primary btn-outlin">
+                                <span>
+                                   <a href="#">Get started </a></span></buttom></th>
                         <th><span class="title">Basic</span><br><small><span>$29 USD/month</span><br></small><button type="button"
                                 class="upgrade-button btn btn-extra-small btn-circle billing-monthly plan-basic lumen5-button btn btn-rounded btn-primary btn-outline"><span> <a href="">Get started </a></span></button></th>
                         <th><span class="title">Starter</span><small><br><span>$79 USD/month</span><br></small><button type="button"
@@ -217,7 +226,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <div id="box-1">                    <tr>
                         <td class="header" colspan="5">Usage</td>
                     </tr>
                     <tr class="shaded-row">
@@ -586,6 +595,7 @@
                         <td><span class="text-l5-muted">—</span></td>
                         <td><i class="material-icons icon-l5 text-success">✔️</i></td>
                     </tr>
+                    </div>
                 </tbody>
             </table>
         </div>
@@ -653,9 +663,10 @@
             </div>
            <button><a href="">Sign up free</a></button>
         </div>
+        <div id="footer"></div>
 
      
 </body>
 
 </html>
-<script src="price.js"></script>
+<script src="./scripts/price.js" type="module"></script>
